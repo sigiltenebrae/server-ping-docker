@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  node-ping-service:
+    container_name: ping-api
+    build: .
+    ports:
+      - "8082:8082"      
